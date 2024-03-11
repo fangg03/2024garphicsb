@@ -1,19 +1,19 @@
 #include <GL/glut.h>
 
-void display() ///¦Û¤v¼g
+void display()
 {
     glutSolidTeapot(0.3);
     glutSwapBuffers();
 }
 
-int main(int argc, char *argv[]) ///138
+int main(int argc, char *argv[])
 {
-    glutInit(&argc, argv); ///140
-    glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH); ///143
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE | GLUT_DEPTH);
 
-    glutCreateWindow("GLUT Shapes"); ///145
+    glutCreateWindow("GLUT Shapes");
 
-    glutDisplayFunc(display); ///148
+    glutDisplayFunc(display);
 
-    glutMainLoop(); ///174
+    glutMainLoop();
 }
